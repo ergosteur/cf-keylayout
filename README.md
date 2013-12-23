@@ -1,4 +1,6 @@
-cf-keylayout
+﻿cf-keylayout
 ============
 
-Clavier Canadien-Français pour Mac OS X
+Clavier canadien francais pour Mac OS X
+
+Original work by Sebastien Guillemette (sebastieng@gmail.com)  
