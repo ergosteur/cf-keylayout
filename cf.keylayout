@@ -778,6 +778,7 @@
                 <action id="Aup">
                      <when state="none" output="A" />
                      <when state="grave" output="&#xc0;" />
+                     <when state="circumflex" output="&#xc2;" />
                 </action>
                 <action id="Cup">
                      <when state="none" output="C" />
