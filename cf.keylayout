@@ -785,8 +785,8 @@
                 </action>
                 <action id="Eup">
                      <when state="none" output="E" />
-							<when state="grave" output="&#xc8;" />
-							<when state="circumflex" output="&#xca;" />
+                     <when state="grave" output="&#xc8;" />
+                     <when state="circumflex" output="&#xca;" />
                 </action>
         </actions>
         <terminators>
