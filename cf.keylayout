@@ -2,11 +2,11 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- =================================================================== -->
 <!-- Clavier canadien francais pour Mac OS X (10.2 et plus)              -->
-<!-- Version ...: 0.9 (31 decembre 2004)                                 -->
+<!-- Version ...: 0.9.2 (6 mai 2014)                                     -->
 <!-- Auteur ....: Sebastien Guillemette (sebastieng@gmail.com)           -->
 <!-- Notes .....: Envoyez-moi vos commentaires / modifications / autres  --> 
 <!-- =================================================================== -->
-<keyboard group="0" id="5000" name="Canadien francais 0.9" maxout="1">
+<keyboard group="0" id="5000" name="Canadien francais 0.9.2" maxout="1">
         <layouts>
                 <layout first="0" last="0" modifiers="48" mapSet="312" />
         </layouts>
