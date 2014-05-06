@@ -182,7 +182,7 @@
                         <key code="31" action="Oup" />
                         <key code="32" output="U" />
                         <key code="33" action="circumflex" />
-                        <key code="34" output="I" />
+                        <key code="34" action="Iup" />
                         <key code="35" output="P" />
                         <key code="36" output="&#xD;" />
                         <key code="37" output="L" />
@@ -292,7 +292,7 @@
                         <key code="31" action="Oup" />
                         <key code="32" output="U" />
                         <key code="33" action="circumflex" />
-                        <key code="34" output="I" />
+                        <key code="34" action="Iup" />
                         <key code="35" output="P" />
                         <key code="36" output="&#xD;" />
                         <key code="37" output="L" />
@@ -788,6 +788,10 @@
                      <when state="none" output="E" />
                      <when state="grave" output="&#xc8;" />
                      <when state="circumflex" output="&#xca;" />
+                </action>
+                <action id="Iup">
+                     <when state="none" output="I" />
+                     <when state="circumflex" output="&#xce;" />
                 </action>
                 <action id="Oup">
                      <when state="none" output="O" />
