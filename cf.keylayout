@@ -181,7 +181,7 @@
                         <key code="30" action="trema" />
                         <key code="31" action="Oup" />
                         <key code="32" output="U" />
-                        <key code="33" action="circumflex" />
+                        <key code="33" output="^" />
                         <key code="34" action="Iup" />
                         <key code="35" output="P" />
                         <key code="36" output="&#xD;" />
