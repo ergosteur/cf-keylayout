@@ -190,7 +190,7 @@
                         <key code="36" output="&#xD;" />
                         <key code="37" output="L" />
                         <key code="38" output="J" />
-                        <key code="39" output="&#x22;" />
+                        <key code="39" output="&#x60;" />
                         <key code="40" output="K" />
                         <key code="41" output=":" />
                         <key code="42" output="&#x3e;" />
