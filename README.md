@@ -10,6 +10,21 @@ Download, unzip and stick the two files (`cf.icns` and `cf.keylayout`) in
 Francais <version>″. (You may need to log out and back in before the new
 layout appears in System Preferences).
 
+Recipes and protips
+-------------------
+
+Recipe                 | Output      | Comments
+--------               | ----------- | -----------
+`` ` ``, `a`           | `à`         | Voyelles accent grave
+`Shift` + `` ^ ``, `A` | `Â`         |
+`Alt` + `` ` ``        | `{`         |
+`Alt` + `<`            | `}`         |
+`Shift` + `^`          | `^`         | Pas besoin de faire espace après
+`Shift` + `` ` ``      | `` ` ``     | (même principe)
+`Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
+`Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
+
+
 Keymaps
 -------
 * 0: Normal
