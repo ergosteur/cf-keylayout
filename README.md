@@ -2,8 +2,6 @@
 ============
 Clavier canadien francais pour Mac OS X
 
-Original work by Sebastien Guillemette (sebastieng@gmail.com)
-
 Installation
 ------------
 Download, unzip and stick the two files (`cf.icns` and `cf.keylayout`) in
@@ -22,3 +20,9 @@ Keymaps
 * 5: Alt+Caps Lock
 * 6: Cmd
 * 7: Ctrl
+
+Credits
+-------
+Current maintainers: Jonathan Allard and Matthieu Yiptong
+
+Original work by Sebastien Guillemette (sebastieng@gmail.com)
