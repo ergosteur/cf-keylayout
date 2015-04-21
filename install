@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo cp cf.* /Library/Keyboard\ Layouts
+sudo touch /Library/Keyboard\ Layouts
+
