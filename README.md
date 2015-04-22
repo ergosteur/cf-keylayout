@@ -4,11 +4,9 @@ Clavier canadien français pour Mac OS X
 
 Installation
 ------------
-Download, unzip and stick the two files (`cf.icns` and `cf.keylayout`) in
-`/Library/Keyboard Layouts`. Then go to System Prefs, International
-(*Language and Text* for Snow users), Input Menu and check off “Canadien
-Francais <version>″. (You may need to log out and back in before the new
-layout appears in System Preferences).
+1. Download and unzip 
+2. Right click on `install` and select Open. You might need to type your user password to continue.
+3. After the installation, the Keyboard system preferences screen will open. Go to the Input Sources tab and add the "Canadien Francais" keyboard to your account.
 
 Recipes and protips
 -------------------
