@@ -22,6 +22,7 @@ Recipe                 | Output      | Comments
 `Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
 `Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
 
+Vim users: `é` can be a good leader key. `let mapleader = "é"`
 
 Keymaps
 -------
