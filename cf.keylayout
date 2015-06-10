@@ -86,7 +86,7 @@
                         <key code="41" output=";" />
                         <key code="42" output="&#x3c;" />
                         <key code="43" output="," />
-			               <key code="44" output="&#xe9;" />
+                        <key code="44" output="&#xe9;" />
                         <key code="45" output="n" />
                         <key code="46" output="m" />
                         <key code="47" output="." />
@@ -184,7 +184,7 @@
                         <key code="29" output=")" />
                         <key code="30" action="trema" />
                         <key code="31" action="Oup" />
-                        <key code="32" output="U" />
+                        <key code="32" action="Uup" />
                         <key code="33" output="^" />
                         <key code="34" action="Iup" />
                         <key code="35" output="P" />
@@ -294,7 +294,7 @@
                         <key code="29" output="0" />
                         <key code="30" action="cedille" />
                         <key code="31" action="Oup" />
-                        <key code="32" output="U" />
+                        <key code="32" action="Uup" />
                         <key code="33" action="circumflex" />
                         <key code="34" action="Iup" />
                         <key code="35" output="P" />
@@ -754,6 +754,7 @@
                      <when state="none" output="a" />
                      <when state="grave" output="&#xe0;" />
                      <when state="circumflex" output="&#xe2;" />
+                     <when state="trema" output="&#xe4;" />
                 </action>
                 <action id="c">
                      <when state="none" output="c" />
@@ -773,6 +774,7 @@
                 <action id="o">
                      <when state="none" output="o" />
                      <when state="circumflex" output="&#xf4;" />
+                     <when state="trema" output="&#xf6;" />
                 </action>
                 <action id="u">
                      <when state="none" output="u" />
@@ -784,6 +786,7 @@
                      <when state="none" output="A" />
                      <when state="grave" output="&#xc0;" />
                      <when state="circumflex" output="&#xc2;" />
+                     <when state="trema" output="&#xc4;" />
                 </action>
                 <action id="Cup">
                      <when state="none" output="C" />
@@ -793,14 +796,23 @@
                      <when state="none" output="E" />
                      <when state="grave" output="&#xc8;" />
                      <when state="circumflex" output="&#xca;" />
+                     <when state="trema" output="&#xcb;" />
                 </action>
                 <action id="Iup">
                      <when state="none" output="I" />
                      <when state="circumflex" output="&#xce;" />
+                     <when state="trema" output="&#xcf;" />
                 </action>
                 <action id="Oup">
                      <when state="none" output="O" />
                      <when state="circumflex" output="&#xd4;" />
+                     <when state="trema" output="&#xd6;" />
+                </action>
+                <action id="Uup">
+                     <when state="none" output="U" />
+                     <when state="grave" output="&#xd9;" />
+                     <when state="circumflex" output="&#xdb;" />
+                     <when state="trema" output="&#xdc;" />
                 </action>
         </actions>
         <terminators>
