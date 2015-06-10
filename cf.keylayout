@@ -3,14 +3,14 @@
 
 <!--
   Clavier canadien francais pour Mac OS X
-  Version 0.10.0 (14 avril 2015)
+  Version 0.10.1 (10 juin 2015)
 
   Auteur original: Sébastien Guillemette (2004)
   Mainteneurs actuels: Jonathan Allard, Matthieu Yiptong
   <https://github.com/ergosteur/cf-keylayout>
 -->
 
-<keyboard group="0" id="5000" name="Canadien francais 0.10.0" maxout="1">
+<keyboard group="0" id="5000" name="Canadien francais 0.10.1" maxout="1">
         <layouts>
                 <layout first="0" last="0" modifiers="48" mapSet="312" />
         </layouts>
