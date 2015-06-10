@@ -4,9 +4,12 @@ Clavier canadien français pour Mac OS X
 
 Installation
 ------------
-1. Download and unzip 
-2. Right click on `install` and select Open. You might need to type your user password to continue.
-3. After the installation, the Keyboard system preferences screen will open. Go to the Input Sources tab and add the "Canadien Francais" keyboard to your account.
+1. Download and unzip (or clone the repo)
+2. Right click on `install` and select Open. You might need to type your
+   user password to continue.
+3. After the installation, the Keyboard system preferences screen will
+   open. Go to the Input Sources tab and add the "Canadien Francais"
+   keyboard to your account.
 
 Recipes and protips
 -------------------
@@ -24,8 +27,12 @@ Recipe                 | Output      | Comments
 
 Vim users: `é` can be a good leader key. `let mapleader = "é"`
 
-Keymaps
--------
+Contributing
+------------
+As usual in open-source projects, please do not increment version in
+your pull requests; the maintainers will take care of that.
+
+### Keymaps
 * 0: Normal
 * 1: Shift
 * 2: Caps Lock
