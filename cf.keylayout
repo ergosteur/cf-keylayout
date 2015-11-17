@@ -393,7 +393,7 @@
                         <key code="10" output="\" />
                         <key code="14" output="&#x80;" />
                         <key code="15" output="&#xae;" />
-                        <key code="17" output="&#x99;" />
+                        <key code="17" output="&#x2122;" />
                         <key code="18" output="&#xb1;" />
                         <key code="19" output="@" />
                         <key code="20" output="&#xa3;" />
