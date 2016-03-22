@@ -24,6 +24,9 @@ Recipe                 | Output      | Comments
 `Shift` + `` ` ``      | `` ` ``     | (même principe)
 `Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
 `Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
+`Alt` + `.`            | `·`         | Middle dot
+`Alt` + `N`            | `ñ`         |
+`Alt` + `S`            | `ß`         |
 
 Vim users: `é` can be a good leader key. `let mapleader = "é"`
 
