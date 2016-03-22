@@ -414,6 +414,7 @@
                         <key code="39" output="{" />
                         <key code="41" output="~" />
                         <key code="42" output="}" />
+                        <key code="45" output="&#xF1;" />
                         <key code="46" output="&#xb5;" />
                         <key code="48" output="&#x9;" />
                         <key code="49" output="&#xA0;" />
@@ -462,6 +463,7 @@
                 <keyMap index="4">
                         <key code="27" output="&#x2014;" />
                         <key code="36" output="&#xD;" />
+                        <key code="45" output="&#xD1;" />
                         <key code="48" output="&#x9;" />
                         <key code="49" output="&#xA0;" />
                         <key code="51" output="&#x8;" />
@@ -507,6 +509,7 @@
                 </keyMap>
                 <keyMap index="5">
                         <key code="36" output="&#xD;" />
+                        <key code="45" output="&#xD1;" />
                         <key code="48" output="&#x9;" />
                         <key code="49" output="&#xA0;" />
                         <key code="51" output="&#x8;" />
