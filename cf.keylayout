@@ -417,6 +417,7 @@
                         <key code="42" output="}" />
                         <key code="45" output="&#xF1;" />
                         <key code="46" output="&#xb5;" />
+                        <key code="47" output="&#xB7;" />
                         <key code="48" output="&#x9;" />
                         <key code="49" output="&#xA0;" />
                         <key code="50" output="\" />
