@@ -389,6 +389,7 @@
                         <key code="126" output="&#x1E;" />
                 </keyMap>
                  <keyMap index="3">
+                        <key code="1" output="&#xDF;" />
                         <key code="8" output="&#xa9;" />
                         <key code="10" output="\" />
                         <key code="14" output="&#x20ac;" />
