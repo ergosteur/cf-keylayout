@@ -1,6 +1,6 @@
 ﻿cf-keylayout
 ============
-Clavier canadien français pour Mac OS X
+Clavier canadien français pour macOS
 
 Installation
 ------------
