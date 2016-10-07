@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 
 <!--
-  Clavier canadien francais pour macOS
+  Clavier canadien français pour macOS
   Version 0.11 (22 mars 2016)
 
   Auteur original: Sébastien Guillemette (2004)
@@ -10,7 +10,7 @@
   <https://github.com/ergosteur/cf-keylayout>
 -->
 
-<keyboard group="0" id="9960" name="Canadien francais 0.11" maxout="1">
+<keyboard group="0" id="9960" name="Canadien français 0.11" maxout="1">
         <layouts>
                 <layout first="0" last="0" modifiers="48" mapSet="312" />
         </layouts>
