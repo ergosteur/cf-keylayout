@@ -464,6 +464,7 @@
                 </keyMap>
                 <keyMap index="4">
                         <key code="27" output="&#x2014;" />
+                        <key code="29" output="&#xbd;" />
                         <key code="36" output="&#xD;" />
                         <key code="45" output="&#xD1;" />
                         <key code="48" output="&#x9;" />
