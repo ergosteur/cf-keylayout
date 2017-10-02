@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd "$( dirname "${BASH_SOURCE[0]}" )"
-sudo cp cf.* /Library/Keyboard\ Layouts
+sudo cp cf.{icns,keylayout} /Library/Keyboard\ Layouts
 sudo touch /Library/Keyboard\ Layouts
 echo "Installation du clavier Canadien Français terminée."
 open /System/Library/PreferencePanes/Keyboard.prefPane
