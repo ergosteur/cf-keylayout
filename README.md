@@ -10,6 +10,8 @@ Installation
 3. After the installation, the Keyboard system preferences screen will
    open. Go to the Input Sources tab and add the "Canadien Francais"
    keyboard to your account.
+   
+*Todo: Brew installation (PR welcome!)*
 
 Recipes and protips
 -------------------
@@ -18,15 +20,21 @@ Recipe                 | Output      | Comments
 --------               | ----------- | -----------
 `` ` ``, `a`           | `à`         | Voyelles accent grave
 `Shift` + `` ^ ``, `A` | `Â`         |
+                       |             | 
+`Alt` + Space          | ` `         | Non-breaking space (nbsp – u+00a0) **\***
 `Alt` + `` ` ``        | `{`         |
 `Alt` + `<`            | `}`         |
-`Shift` + `^`          | `^`         | Pas besoin de faire espace après
-`Shift` + `` ` ``      | `` ` ``     | (même principe)
 `Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
 `Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
-`Alt` + `.`            | `·`         | Middle dot
-`Alt` + `N`            | `ñ`         |
+`Alt` + `.`            | `·`         | Middle dot (utile pour les auteur·e·s)
+`Alt` + `E`            | `€`         |
+`Alt` + `M`            | `µ`         | 'm'/'µ' comme dans 'micro'
+`Alt` + `N`            | `ñ`         | Les deux casses sont disponibles avec 'Shift'
 `Alt` + `S`            | `ß`         |
+`Shift` + `^`          | `^`         | Pas besoin de faire espace après
+`Shift` + `` ` ``      | `` ` ``     | (même principe)
+
+\[\*]: Non-breaking space: Attention avec ceci. C'est facile d'en taper une sans s'en rendre compte. Ça explique parfois bogues étranges de programmation et de rédaction. Ex.: "No method named ' foo'.
 
 Vim users: `é` can be a good leader key. `let mapleader = "é"`
 
