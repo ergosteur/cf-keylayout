@@ -19,7 +19,7 @@ Recipes and protips
 Recipe                 | Output      | Comments
 --------               | ----------- | -----------
 `` ` ``, `a`           | `à`         | Voyelles accent grave
-`Shift` + `` ^ ``, `A` | `Â`         |
+`` ^ ``, `Shift` + `A` | `Â`         |
                        |             | 
 `Alt` + Space          | ` `         | Non-breaking space (nbsp – u+00a0) **\***
 `Alt` + `` ` ``        | `{`         |
