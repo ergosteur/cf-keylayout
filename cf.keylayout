@@ -3,14 +3,14 @@
 
 <!--
   Clavier canadien français pour macOS
-  Version 0.12.2 (1 novembre 2020)
+  Version 0.12.1 (6 octobre 2017)
 
   Auteur original: Sébastien Guillemette (2004)
   Mainteneurs actuels: Jonathan Allard, Matthieu Yiptong
   <https://github.com/ergosteur/cf-keylayout>
 -->
 
-<keyboard group="0" id="9960" name="Canadien français 0.12.2" maxout="1">
+<keyboard group="0" id="9960" name="Canadien français 0.12.1" maxout="1">
         <layouts>
                 <layout first="0" last="0" modifiers="48" mapSet="312" />
         </layouts>
@@ -404,7 +404,7 @@
                         <key code="24" output="&#xbe;" />
                         <key code="25" output="&#xb3;" />
                         <key code="26" output="&#xa6;" />
-                        <key code="27" output="&#xbd;" />
+                        <key code="27" output="&#x2013;" />
                         <key code="28" output="&#xb2;" />
                         <key code="29" output="&#xbc;" />
                         <key code="30" output="]" />
@@ -415,7 +415,6 @@
                         <key code="39" output="{" />
                         <key code="41" output="~" />
                         <key code="42" output="}" />
-                        <key code="43" output="&#x2013;" />
                         <key code="45" output="&#xF1;" />
                         <key code="46" output="&#xb5;" />
                         <key code="47" output="&#xB7;" />
@@ -467,7 +466,6 @@
                         <key code="27" output="&#x2014;" />
                         <key code="29" output="&#xbd;" />
                         <key code="36" output="&#xD;" />
-                        <key code="43" output="&#x2014;" />
                         <key code="45" output="&#xD1;" />
                         <key code="48" output="&#x9;" />
                         <key code="49" output="&#xA0;" />

@@ -24,8 +24,8 @@ Recipe                 | Output      | Comments
 `Alt` + Space          | ` `         | Non-breaking space (nbsp – u+00a0) **\***
 `Alt` + `` ` ``        | `{`         |
 `Alt` + `<`            | `}`         |
-`Alt` + `,`            | `–`         | En-dash/tiret moyen/demi-cadratin
-`Alt` + `Shift` + `,`  | `—`         | Em-dash/tiret long/cadratin
+`Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
+`Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
 `Alt` + `.`            | `·`         | Middle dot (utile pour les auteur·e·s)
 `Alt` + `E`            | `€`         |
 `Alt` + `M`            | `µ`         | 'm'/'µ' comme dans 'micro'
