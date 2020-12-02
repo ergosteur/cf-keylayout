@@ -419,7 +419,7 @@
                         <key code="46" output="&#xb5;" />
                         <key code="47" output="&#xB7;" />
                         <key code="48" output="&#x9;" />
-                        <key code="49" output="&#xA0;" />
+                        <key code="49" output=" " />
                         <key code="50" output="\" />
                         <key code="51" output="&#x8;" />
                         <key code="52" output="&#x3;" />
@@ -541,7 +541,7 @@
                         <key code="46" output="&#xb5;" />
                         <key code="47" output="&#xB7;" />
                         <key code="48" output="&#x9;" />
-                        <key code="49" output="&#xA0;" />
+                        <key code="49" output=" " />
                         <key code="50" output="\" />
                         <key code="51" output="&#x8;" />
                         <key code="52" output="&#x3;" />

@@ -10,8 +10,19 @@ Installation
 3. After the installation, the Keyboard system preferences screen will
    open. Go to the Input Sources tab and add the "Canadien Francais"
    keyboard to your account.
-   
+
 *Todo: Brew installation (PR welcome!)*
+
+Changements en rupture  (*Breaking changes*)
+----------------------
+* `Alt` + Space: From *Non-breaking space* (U+00A0) to *Space* (U+0020)
+
+    Utiliser la touche Alt juste avant *Espace* créait facilement
+    une espace insécable sans le vouloir. Dans un contexte de programmation,
+    ça peut causer problème.
+
+    Le *nbsp* est toujours disponible avec `Alt` + `Shift` + *Espace*, une
+    combinaison plus délibérée.
 
 Recipes and protips
 -------------------
@@ -21,7 +32,7 @@ Recipe                 | Output      | Comments
 `` ` ``, `a`           | `à`         | Voyelles accent grave
 `` ^ ``, `Shift` + `A` | `Â`         |
                        |             | 
-`Alt` + Space          | ` `         | Non-breaking space (nbsp – u+00a0) **\***
+`Alt` + `Shift` + Space | ` `         | Non-breaking space (nbsp – u+00a0) **\***
 `Alt` + `` ` ``        | `{`         |
 `Alt` + `<`            | `}`         |
 `Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
@@ -34,7 +45,7 @@ Recipe                 | Output      | Comments
 `Shift` + `^`          | `^`         | Pas besoin de faire espace après
 `Shift` + `` ` ``      | `` ` ``     | (même principe)
 
-\[\*]: Non-breaking space: Attention avec ceci. C'est facile d'en taper une sans s'en rendre compte. Ça explique parfois bogues étranges de programmation et de rédaction. Ex.: "No method named ' foo'.
+\[\*]: Non-breaking space: Attention avec ceci. Ça explique parfois bogues étranges de programmation et de rédaction. Ex.: "No method named ' foo'.
 
 Vim users: `é` can be a good leader key. `let mapleader = "é"`
 
