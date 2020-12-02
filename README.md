@@ -4,14 +4,26 @@ Clavier canadien français pour macOS
 
 Installation
 ------------
+### Homebrew
+```
+brew tap joallard/cf-keylayout
+brew install cf-keylayout
+```
+
+Pour utiliser le clavier installé ou mis à jour, ajoutez-le dans les
+préférences **Clavier**, onglet **Méthodes de saisie/Input Sources**:
+
+    open /System/Library/PreferencePanes/Keyboard.prefPane
+
+**Le clavier se trouve dans la section *Autres*/*Others*,** et non *Français*.
+
+### Install script
 1. Download and unzip (or clone the repo)
 2. Right click on `install` and select Open. You might need to type your
    user password to continue.
 3. After the installation, the Keyboard system preferences screen will
    open. Go to the Input Sources tab and add the "Canadien Francais"
    keyboard to your account.
-
-*Todo: Brew installation (PR welcome!)*
 
 Changements en rupture  (*Breaking changes*)
 ----------------------
