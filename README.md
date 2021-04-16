@@ -5,7 +5,8 @@ Clavier canadien français pour macOS
 Installation
 ------------
 ### Homebrew
-```
+
+```bash
 brew tap joallard/cf-keylayout
 brew install cf-keylayout
 ```
@@ -13,38 +14,38 @@ brew install cf-keylayout
 Pour utiliser le clavier installé ou mis à jour, ajoutez-le dans les
 préférences **Clavier**, onglet **Méthodes de saisie/Input Sources**:
 
-    open /System/Library/PreferencePanes/Keyboard.prefPane
+```bash
+open /System/Library/PreferencePanes/Keyboard.prefPane
+```
 
 **Le clavier se trouve dans la section *Autres*/*Others*,** et non *Français*.
 
-### Install script
-1. Download and unzip (or clone the repo)
-2. Right click on `install` and select Open. You might need to type your
+### Script d'installation
+1. Télécharger et décompresser ou clôner le dépôt
+2. Cliquer droit sur `install` et sélectionner Ouvrir. Vous aurez peut-être à entrer votre utilisateur et mot de passe pour continuer.
    user password to continue.
-3. After the installation, the Keyboard system preferences screen will
-   open. Go to the Input Sources tab and add the "Canadien Francais"
-   keyboard to your account.
+3. Après l'installation, la fenêtre Clavier dans les préférences système (System Preferences > Keyboard) s'ouvrira. Cliquez sur l'onglet "Méthodes de saisie" (Input sources) et ajoutez "Canadien Francais".
 
-Recipes and protips
--------------------
+Recettes et conseils de pro
+---------------------------
 
-Recipe                 | Output      | Comments
---------               | ----------- | -----------
-`` ` ``, `a`           | `à`         | Voyelles accent grave
-`` ^ ``, `Shift` + `A` | `Â`         |
-                       |             | 
+Recette                 | Sortie      | Commentaires
+--------                | ----------- | -----------
+`` ` ``, `a`            | `à`         | Voyelles accent grave
+`` ^ ``, `Shift` + `A`  | `Â`         |
+                        |             | 
 `Alt` + `Shift` + Space | ` `         | Non-breaking space (nbsp – u+00a0) **\***
-`Alt` + `` ` ``        | `{`         |
-`Alt` + `<`            | `}`         |
-`Alt` + `-`            | `–`         | En-dash/tiret moyen/demi-cadratin
-`Alt` + `Shift` + `-`  | `—`         | Em-dash/tiret long/cadratin
-`Alt` + `.`            | `·`         | Middle dot (utile pour les auteur·e·s)
-`Alt` + `E`            | `€`         |
-`Alt` + `M`            | `µ`         | 'm'/'µ' comme dans 'micro'
-`Alt` + `N`            | `ñ`         | Les deux casses sont disponibles avec 'Shift'
-`Alt` + `S`            | `ß`         |
-`Shift` + `^`          | `^`         | Pas besoin de faire espace après
-`Shift` + `` ` ``      | `` ` ``     | (même principe)
+`Alt` + `` ` ``         | `{`         |
+`Alt` + `<`             | `}`         |
+`Alt` + `-`             | `–`         | En-dash/tiret moyen/demi-cadratin
+`Alt` + `Shift` + `-`   | `—`         | Em-dash/tiret long/cadratin
+`Alt` + `.`             | `·`         | Middle dot (utile pour les auteur·e·s)
+`Alt` + `E`             | `€`         |
+`Alt` + `M`             | `µ`         | 'm'/'µ' comme dans 'micro'
+`Alt` + `N`             | `ñ`         | Les deux casses sont disponibles avec 'Shift'
+`Alt` + `S`             | `ß`         |
+`Shift` + `^`           | `^`         | Pas besoin de faire espace après
+`Shift` + `` ` ``       | `` ` ``     | (même principe)
 
 \[\*]: Non-breaking space: Attention avec ceci. Ça explique parfois bogues étranges de programmation et de rédaction. Ex.: "No method named ' foo'.
 
@@ -61,12 +62,8 @@ Changements en rupture  (*Breaking changes*)
     Le *nbsp* est toujours disponible avec `Alt` + `Shift` + *Espace*, une
     combinaison plus délibérée.
 
-Contributing
-------------
-As usual in open-source projects, please do not increment version in
-your pull requests; the maintainers will take care of that.
-
-### Keymaps
+Keymaps
+-------
 * 0: Normal
 * 1: Shift
 * 2: Caps Lock
@@ -76,8 +73,12 @@ your pull requests; the maintainers will take care of that.
 * 6: Cmd
 * 7: Ctrl
 
+Contributions
+------------
+Comme tous bon projet open-source, veuillez ne pas modifier la version du projet dans vos pull-requests; les Mainteneurs s'occuperont de le faire.
+
 Credits
 -------
-Current maintainers: Jonathan Allard and Matthieu Yiptong
+Mainteneurs actuels: [Jonathan Allard](https://github.com/joallard) et [Matthieu Yiptong](https://github.com/ergosteur)
 
-Original work by Sebastien Guillemette (sebastieng@gmail.com)
+Travail original par Sebastien Guillemette (sebastieng@gmail.com)
