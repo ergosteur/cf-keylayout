@@ -10,7 +10,7 @@
   <https://github.com/ergosteur/cf-keylayout>
 -->
 
-<keyboard group="0" id="9960" name="Canadien français 0.12.3 Corrected" maxout="1">
+<keyboard group="0" id="9960" name="Canadien français 0.12.1" maxout="1">
         <layouts>
                 <layout first="0" last="0" modifiers="48" mapSet="312" />
         </layouts>
@@ -784,8 +784,8 @@
                 <action id="trema">
                      <when state="none" next="trema" />
                 </action>
-		<action id="space">
-		     <when state="none" output=" " />
+                <action id="space">
+                     <when state="none" output=" " />
                      <when state="grave" output="&#x60;" />
                      <when state="circumflex" output="&#x5e;" />
                      <when state="trema" output="&#xa8;" />
@@ -856,4 +856,10 @@
                      <when state="trema" output="&#xdc;" />
                 </action>
         </actions>
+        <terminators>
+            <when state="cedille" output="&#xb8;" />
+            <when state="circumflex" output="&#x5e;" />
+            <when state="grave" output="&#x60;" />
+            <when state="trema" output="&#xa8;" />
+        </terminators>
 </keyboard>
