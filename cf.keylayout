@@ -390,6 +390,8 @@
                 </keyMap>
                  <keyMap index="3">
                         <key code="1" output="&#xDF;" />
+                        <key code="6" output="&#xAB;" />
+                        <key code="7" output="&#xBB;" />
                         <key code="8" output="&#xa9;" />
                         <key code="10" output="\" />
                         <key code="14" output="&#x20ac;" />
@@ -512,6 +514,8 @@
                 </keyMap>
                 <keyMap index="5">
                         <key code="1" output="&#xDF;" />
+                        <key code="6" output="&#xAB;" />
+                        <key code="7" output="&#xBB;" />
                         <key code="8" output="&#xa9;" />
                         <key code="10" output="\" />
                         <key code="14" output="&#x20ac;" />

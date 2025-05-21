@@ -29,7 +29,6 @@ cd cf-keylayout
 # ou
 sudo ./install # Installer dans /Library/Keyboard Layouts
 ```
-
 ### Script d'installation
 1. [Télécharger](https://github.com/ergosteur/cf-keylayout/archive/refs/heads/master.zip) et décompresser (ou clôner le dépôt)
 2. Faites un clic-droit sur `install`, puis 'Ouvrir'. Vous aurez peut-être à entrer votre utilisateur et mot de passe pour continuer.
@@ -40,12 +39,13 @@ Recettes et trucs de pro
 
 Recette                 | Résultat    | Commentaires
 --------                | ----------- | -----------
-`` ` ``, `a`            | `à`         | Voyelles accent grave
+`` ` ``, `A`            | `à`         | Accent grave
 `` ^ ``, `Shift` + `A`  | `Â`         |
-                        |             | 
 `Alt` + `Shift` + Space | ` `         | Espace insécable (nbsp – u+00a0) **\***
 `Alt` + `` ` ``         | `{`         |
 `Alt` + `<`             | `}`         |
+`Alt` + Z               | `«`         |
+`Alt` + X               | `»`         |
 `Alt` + `-`             | `–`         | En-dash/tiret moyen/demi-cadratin
 `Alt` + `Shift` + `-`   | `—`         | Em-dash/tiret long/cadratin
 `Alt` + `.`             | `·`         | Point milieu (utile pour les auteur·e·s)
