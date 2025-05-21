@@ -20,8 +20,18 @@ open /System/Library/PreferencePanes/Keyboard.prefPane
 
 **Le clavier se trouve dans la section *Autres*/*Others*,** et non *Français*.
 
+### Manuellement
+```bash
+git clone https://github.com/ergosteur/cf-keylayout.git
+cd cf-keylayout
+
+./install # Installer dans ~/Library/Keyboard Layouts
+# ou
+sudo ./install # Installer dans /Library/Keyboard Layouts
+```
+
 ### Script d'installation
-1. Télécharger et décompresser (ou clôner le dépôt)
+1. [Télécharger](https://github.com/ergosteur/cf-keylayout/archive/refs/heads/master.zip) et décompresser (ou clôner le dépôt)
 2. Faites un clic-droit sur `install`, puis 'Ouvrir'. Vous aurez peut-être à entrer votre utilisateur et mot de passe pour continuer.
 3. Après l'installation, la fenêtre Clavier dans les préférences système (System Preferences > Keyboard) s'ouvrira. Cliquez sur l'onglet "Méthodes de saisie" (Input sources) et ajoutez "Canadien Francais".
 
