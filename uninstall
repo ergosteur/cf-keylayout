@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [[ "$EUID" -eq 0 ]]; then
+  echo "Ceci supprimera la configuration clavier CA-FR installée dans"
+  echo "/Library/Keyboard Layouts"
+  echo "Si la configuration n'existe que pour votre usager," 
+  echo "utiliser ./remove (sans sudo)"
+  read -rp "Appyer sur Enter pour continuer, ou ^C pour interrompre"
+  rm /Library/Keyboard\ Layouts/cf.icns
+  rm /Library/Keyboard\ Layouts/cf.keylayout
+  sudo touch /Library/Keyboard\ Layouts
+  echo "Clavier Canadien Français supprimé de /Library/Keyboard Layouts"
+else
+  echo "Ceci supprimera la configuration clavier CA-FR installée dans"
+  echo "$USER/Library/Keyboard Layouts"
+  echo "Si l'installation est globale (dans /Library/Keyboard Layouts),"
+  echo "utiliser plutôt:"
+  echo "% sudo ./remove"
+  read -rp "Appyer sur Enter pour continuer, ou ^C pour interrompre"
+  rm ~/Library/Keyboard\ Layouts/cf.icns
+  rm ~/Library/Keyboard\ Layouts/cf.keylayout
+  touch ~/Library/Keyboard\ Layouts
+  echo "Clavier Canadien Français installé dans $HOME/Library/Keyboard Layouts"
+fi
+
+echo "Désinstallation du clavier Canadien Français terminée."
+echo "La configuration disparaîtra des préférences après avoir fermé la session ou redémarré. Vous pouvez aussi la supprimer manuellement."
+open /System/Library/PreferencePanes/Keyboard.prefPane
+
