@@ -40,6 +40,7 @@ Recettes et trucs de pro
 Recette                 | Résultat    | Commentaires
 --------                | ----------- | -----------
 `` ` ``, `A`            | `à`         | Accent grave
+`Alt` + `/`, `a`        | `á`         | Accent aigu
 `` ^ ``, `Shift` + `A`  | `Â`         |
 `Alt` + `Shift` + Space | ` `         | Espace insécable (nbsp – u+00a0) **\***
 `Alt` + `` ` ``         | `{`         |

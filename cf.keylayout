@@ -417,6 +417,7 @@
                         <key code="39" output="{" />
                         <key code="41" output="~" />
                         <key code="42" output="}" />
+                        <key code="44" action="acute"/>
                         <key code="45" output="&#xF1;" />
                         <key code="46" output="&#xb5;" />
                         <key code="47" output="&#xB7;" />
@@ -541,6 +542,7 @@
                         <key code="39" output="{" />
                         <key code="41" output="~" />
                         <key code="42" output="}" />
+                        <key code="44" action="acute"/>
                         <key code="45" output="&#xD1;" />
                         <key code="46" output="&#xb5;" />
                         <key code="47" output="&#xB7;" />
@@ -785,11 +787,15 @@
                 <action id="grave">
                      <when state="none" next="grave" />
                 </action>
+                <action id="acute">
+                     <when state="none" next="acute" />
+                </action>
                 <action id="trema">
                      <when state="none" next="trema" />
                 </action>
                 <action id="space">
                      <when state="none" output=" " />
+                     <when state="acute" output="&#xB4;" />
                      <when state="grave" output="&#x60;" />
                      <when state="circumflex" output="&#x5e;" />
                      <when state="trema" output="&#xa8;" />
@@ -797,6 +803,7 @@
                 </action>
                 <action id="a">
                      <when state="none" output="a" />
+                     <when state="acute" output="&#xE1;" />
                      <when state="grave" output="&#xe0;" />
                      <when state="circumflex" output="&#xe2;" />
                      <when state="trema" output="&#xe4;" />
@@ -807,28 +814,33 @@
                 </action>
                 <action id="e">
                      <when state="none" output="e" />
+                     <when state="acute" output="&#xE9;" />
                      <when state="grave" output="&#xe8;" />
                      <when state="circumflex" output="&#xea;" />
                      <when state="trema" output="&#xeb;" />
                 </action>
                 <action id="i">
                      <when state="none" output="i" />
+                     <when state="acute" output="&#xED;" />
                      <when state="circumflex" output="&#xee;" />
                      <when state="trema" output="&#xef;" />
                 </action>
                 <action id="o">
                      <when state="none" output="o" />
+                     <when state="acute" output="&#xF3;" />
                      <when state="circumflex" output="&#xf4;" />
                      <when state="trema" output="&#xf6;" />
                 </action>
                 <action id="u">
                      <when state="none" output="u" />
+                     <when state="acute" output="&#xFA;" />
                      <when state="grave" output="&#xf9;" />
                      <when state="circumflex" output="&#xfb;" />
                      <when state="trema" output="&#xfc;" />
                 </action>
                 <action id="Aup">
                      <when state="none" output="A" />
+                     <when state="acute" output="&#xC1;" />
                      <when state="grave" output="&#xc0;" />
                      <when state="circumflex" output="&#xc2;" />
                      <when state="trema" output="&#xc4;" />
@@ -839,22 +851,26 @@
                 </action>
                 <action id="Eup">
                      <when state="none" output="E" />
+                     <when state="acute" output="&#xC9;" />
                      <when state="grave" output="&#xc8;" />
                      <when state="circumflex" output="&#xca;" />
                      <when state="trema" output="&#xcb;" />
                 </action>
                 <action id="Iup">
                      <when state="none" output="I" />
+                     <when state="acute" output="&#xCD;" />
                      <when state="circumflex" output="&#xce;" />
                      <when state="trema" output="&#xcf;" />
                 </action>
                 <action id="Oup">
                      <when state="none" output="O" />
+                     <when state="acute" output="&#xD3;" />
                      <when state="circumflex" output="&#xd4;" />
                      <when state="trema" output="&#xd6;" />
                 </action>
                 <action id="Uup">
                      <when state="none" output="U" />
+                     <when state="acute" output="&#xDA;" />
                      <when state="grave" output="&#xd9;" />
                      <when state="circumflex" output="&#xdb;" />
                      <when state="trema" output="&#xdc;" />
