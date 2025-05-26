@@ -1,7 +1,25 @@
 #!/bin/bash
 
-cd "$( dirname "${BASH_SOURCE[0]}" )"
-sudo cp cf.{icns,keylayout} /Library/Keyboard\ Layouts
-sudo touch /Library/Keyboard\ Layouts
-echo "Installation du clavier Canadien Français terminée."
+if [[ "$EUID" -eq 0 ]]; then
+  echo "Ceci installera la configuration clavier CA-FR globalement,"
+  echo "dans /Library/Keyboard Layouts".
+  echo "Pour installer pour votre usager seulement, utiliser ./install (sans sudo)"
+  read -rp "Appyer sur Enter pour continuer, ou ^C pour interrompre"
+  cd "$( dirname "${BASH_SOURCE[0]}" )"
+  cp cf.{icns,keylayout} /Library/Keyboard\ Layouts
+  touch /Library/Keyboard\ Layouts
+  echo "Clavier Canadien Français installé dans /Library/Keyboard Layouts"
+else
+  echo "Ceci installera la configuration clavier CA-FR pour $USER seulement."
+  echo "Pour installer globalement, utiliser plutôt:"
+  echo "% sudo ./install"
+  read -rp "Appyer sur Enter pour continuer, ou ^C pour interrompre"
+  cd "$( dirname "${BASH_SOURCE[0]}" )"
+  cp cf.{icns,keylayout} ~/Library/Keyboard\ Layouts
+  touch ~/Library/Keyboard\ Layouts
+  echo "Clavier Canadien Français installé dans $HOME/Library/Keyboard Layouts"
+fi
+
+echo "Pour l'ajouter aux configurations disponibles, voir section Autres/Others dans les Préférences système > Clavier > Sources d'entrée"
 open /System/Library/PreferencePanes/Keyboard.prefPane
+
